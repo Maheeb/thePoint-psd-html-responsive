@@ -8,16 +8,14 @@
         position: relative;
     }
     #banner_area .inner_main_text_banner h1 {
-        font-size: 35px;
+        font-size: 34px;
         color: #fff;
-        line-height: 1em;
-        margin-top: -43px;
+        line-height: 0em;
     }
-    .inner_main_text_banner h2 {
-        font-size: 19px;
+    #banner_area .inner_main_text_banner h2 {
+        font-size: 13px;
         color: #fff;
-        line-height: 1em;
-        margin-top: -23px;
+        line-height: 2em;
     }
     #main_menu .social_area {
         margin-right: 129px;
@@ -33,12 +31,16 @@
     #banner_area .banner_bottom p {
         color: #fff;
         margin: 0;
-        font-size: 10px;
+        font-size: 8px;
     }
-    body{width: 540px}
+    /*body{width: 540px}*/
+    #latest_project_area .child_project img {
+        margin-bottom: 18px;
+        width: 100%;
+    }
 }
-/*@media only screen and (min-width: 768px) {*/
-    /*body{width: 760px}*/
+/*@media only screen and (min-width: 600px) {*/
+    /*!*body{width: 760px}*!*/
     /*#banner_area .inner_main_text_banner h1 {*/
         /*font-size: 59px;*/
         /*color: #fff;*/
@@ -49,6 +51,14 @@
         /*color: #fff;*/
         /*line-height: 1em;*/
         /*!* margin-top: -16px; *!*/
+    /*}*/
+
+    /*#latest_project_area .child_project {*/
+        /*width: 100%;*/
+        /*margin: 0 1% 10px;*/
+        /*float: left;*/
+        /*padding: 10px;*/
+        /*text-align: center;*/
     /*}*/
 /*}*/
 

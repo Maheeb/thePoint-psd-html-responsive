@@ -424,12 +424,12 @@ margin-bottom: 10px;}
 #banner_area .inner_main_text_banner h1{
   font-size: 130px;
   color: #fff;
-  line-height: 1em;
+  line-height: 0em;
 }
 #banner_area .inner_main_text_banner h2{
   font-size: 50px;
   color: #fff;
-  line-height: 1em;
+  line-height: 0em;
 }
 #banner_area .banner_bottom{
   position: absolute;
@@ -493,7 +493,8 @@ margin-bottom: 10px;}
   padding: 10px;
   text-align: center;
 }
-#latest_project_area .child_project img{margin-bottom:15px; }
+#latest_project_area .child_project img{margin-bottom:15px;
+    width: 100%; }
 #latest_project_area .child_project h4{color: #4a4a4a; font-size: 20px}
 #latest_project_area .child_project p{
   color: #999999;
